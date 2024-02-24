@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.authentication-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ece7e7;
+}
+.authentication-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 52vw;
+  background-color: white;
+  border-radius: 15px;
+  min-width: 1086px;
+  min-height: 670px;
+}
+.authentication-image{
+    background-color: orange;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    border-radius: 15px 0 0 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.authentication-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: inherit;
+}
+
+.authentication-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 50%;
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+}
+.authentication-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70%;
+    width: 72%;
+    padding: 0 20px;
+    
+    
+    
+}
+.authentication-form h1{
+    font-size: 42px;
+    color: black;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+.authentication-form p{
+    font-size: 17px;
+    color: #626161;
+    margin-bottom: 28px;
+    text-align: left;
+    align-self: flex-start;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.form-group input{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group label{
+    font-size: 16px;
+    color: #626161; 
+    
+}
+.form-group button{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #235edf;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.authentication-alt-signin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+.authentication-alt-signin button{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b5998;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.authentication-alt-signin p{
+    font-size: 19px;
+    color: #626161;
+    margin-bottom: 5px;
+    
+   
+}
+.create-account-ask{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    align-items: baseline;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 75px;
+    font-size: 13px;
+    color: #626161;
+    
+}
+.create-account-ask button{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #626161;;
+    border-radius: 5px;
+    background-color: white;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 25px;
+    font-size: 13px;
+    color: #626161;
+}
+.homepage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 100vh;
+}
+.left-panel{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 5%;
+    background-color: blue;
+    color: white;
+}
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100vh;
+}
+.task-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    height: 90%;
+    background-color: green;
+}
+.task-container h1{
+    font-size: 35px;
+    color: black;
+  
+}
